@@ -34,6 +34,10 @@ public class Main extends StateBasedGame{
       this.addState(new win(xSize, ySize));
       
       this.addState(new Instructions(xSize, ySize));
+      
+      this.addState(new Level2(xSize, ySize));
+      
+      //this.addState(new LevelSelect(xSize, ySize));
 
    }
 

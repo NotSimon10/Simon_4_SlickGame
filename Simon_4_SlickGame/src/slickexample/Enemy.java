@@ -15,6 +15,7 @@ public class Enemy {
 
     int timeshit;
     
+    
     private static int numberOfEnemies = 0;
 
     private int id;
@@ -517,12 +518,9 @@ public class Enemy {
 
         }
 
-    } else {
-            this.currentanime = skdead;}
+    } 
 
     }
-
-    
 
     public float getskX() {
 
